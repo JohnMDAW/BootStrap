@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ejercicio 2 - Offset y ordenación</title>
+  </head>
+  <body>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <header id="header" class="col-12 bg-success">
+          <h1 class="">Header</h1>
+        </header>
+
+        <main class="col-12">
+          <div class="row">
+            <article class="col-6 col-sm-3 order-md-2 bg-primary">1</article>
+            <article class="col-6 col-sm-3 order-md-3 bg-primary">2</article>
+            <article class="col-6 col-sm-3 order-md-1 bg-primary">3</article>
+            <article class="col-6 col-sm-3 order-md-4 bg-primary">4</article>
+          </div>
+          <div class="row">
+            <article class="col-6 col-sm-3 order-md-4 bg-secondary">a</article>
+            <article class="col-6 col-sm-3 order-md-3 bg-secondary">b</article>
+            <article class="col-6 col-sm-3 order-md-2 bg-secondary">c</article>
+            <article class="col-6 col-sm-3 order-md-1 bg-secondary">d</article>
+          </div>
+          <div class="row">
+            <div class="col-12 d-block d-sm-none bg-info ">Mobile</div>
+            <div class="col-12 d-none d-sm-block d-md-none bg-info ">Tablet</div>
+            <div class="col-12 d-none d-md-block bg-info ">Desktop</div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 offset-md-3 d-none d-sm-block bg-danger text-center">😔</div>
+            <div class="col-12 col-sm-6 col-md-3 bg-danger text-center">😄</div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <footer class="row">
+      <h1 class="col-12 d-none d-sm-block d-md-block bg-success text-center text-black">Footer</h1>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
